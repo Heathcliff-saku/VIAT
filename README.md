@@ -20,18 +20,31 @@ Ensure that you have these environments:
 ## 💾 2.Datasets
 The released data consists of two parts: 
 1. `IM3D`: A multi-view dataset used for training, containing 100 hemispherical sampled viewpoint renderings of 1000 virtual 3D objects.
-- [IM3D download link (Google Drive)]()
+- [IM3D download link (Google Drive)](https://drive.google.com/file/d/1_A4ePjOhlJahJpy8T2dgWZLoigKmqqSd/view?usp=drive_link)
 
 2. `ImageNet-V+`, A larger adversarial viewpoint benchmark, including 100K adversarial viewpoint samples captured by GMVFool on IM3D.
 - [IM3D download link (Google Drive)](https://drive.google.com/file/d/1oxrWl4mRa_mEr-ByCMhyRWaQG8Wribo7/view)
 
 
+## 🪄 3.Training NeRF for IM3D Objects
+Before beginning, we need to use Instant-NGP to construct NeRF representations for the 1000 objects in IM3D, which will take approximately 24 hours. However, if you only want to conduct attacks or run simple demos, you can opt to train NeRF for a subset of the objects. Due to limited upload space, I regret that I cannot directly share the NeRF weights.
 
-## 💾 3.Training NeRF for IM3D Objects
+If you have correctly downloaded the `IM3D` dataset, extract it into a folder within the project. Then, training nerf can be conducted using the following script:
+
+```
+cd ./run_train_nerf
+sh run_train_NeRF_1.sh
+```
+Note that you should modified `--root_dir` in `run_train_NeRF_1.sh` to the path of `IM3D` datasets, and the checkpoint will be saved in `.\run_train_NeRF\ckpts\nerf`
 
 
+## ⚔️ 4.GMVFool
 
+## 🛡️ 5.VIAT
 
+## 💽 6.ImageNet-V+ Benchmark
+
+## ⚒️ 7. ViewRS
 
 
 ... The code is currently being organized, thank you for your patience.
@@ -70,4 +83,10 @@ This project uses Unofficial implementation of Instant-NGP (ngp_pl), Thanks to @
 
 If you are interested in viewpoint robustness, welcome to check our previous work: [ViewFool: Evaluating the Robustness of Visual Recognition to Adversarial Viewpoints (NIPS2022)](https://proceedings.neurips.cc/paper_files/paper/2022/file/eee7ae5cf0c4356c2aeca400771791aa-Paper-Conference.pdf) [[project]](https://github.com/Heathcliff-saku/ViewFool_).
 
+
+## **😊 Contact**
+If you have any questions or suggestions about the paper or code, look forward to your contact with us:
+
+* Yinpeng Dong: dyp17@mails.tsinghua.edu.cn
+* Shouwei Ruan: shouweiruan@buaa.edu.cn / shouweiruan@gmail.com
 
