@@ -1,0 +1,6 @@
+# ninja log v5
+1	34455	1662552403000000000	/data/run01/scv7303/rsw_/NeRFAttack/ngp_pl/models/csrc/build/temp.linux-x86_64-3.7/binding.o	6865230189c89d5d
+2	64622	1662552433000000000	/data/run01/scv7303/rsw_/NeRFAttack/ngp_pl/models/csrc/build/temp.linux-x86_64-3.7/intersection.o	a1732d5c94cc3c85
+2	64644	1662552433000000000	/data/run01/scv7303/rsw_/NeRFAttack/ngp_pl/models/csrc/build/temp.linux-x86_64-3.7/raymarching.o	40c512d22d281932
+2	74143	1662552443000000000	/data/run01/scv7303/rsw_/NeRFAttack/ngp_pl/models/csrc/build/temp.linux-x86_64-3.7/volumerendering.o	4f546498b6bf1ab2
+2	79980	1662552448000000000	/data/run01/scv7303/rsw_/NeRFAttack/ngp_pl/models/csrc/build/temp.linux-x86_64-3.7/losses.o	72756d4ee367974b

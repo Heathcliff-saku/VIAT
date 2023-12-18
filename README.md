@@ -20,10 +20,18 @@ Ensure that you have these environments:
 ## 💾 2.Datasets
 The released data consists of two parts: 
 1. `IM3D`: A multi-view dataset used for training, containing 100 hemispherical sampled viewpoint renderings of 1000 virtual 3D objects.
-- [IM3D download link (Baiduyun)]()
+- [IM3D download link (Google Drive)]()
 
 2. `ImageNet-V+`, A larger adversarial viewpoint benchmark, including 100K adversarial viewpoint samples captured by GMVFool on IM3D.
 - [IM3D download link (Google Drive)](https://drive.google.com/file/d/1oxrWl4mRa_mEr-ByCMhyRWaQG8Wribo7/view)
+
+
+
+## 💾 3.Training NeRF for IM3D Objects
+
+
+
+
 
 
 ... The code is currently being organized, thank you for your patience.
