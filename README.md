@@ -1,6 +1,8 @@
 # VIAT: Viewpoint-Invariant Adversarial Training
 This repository contains the official implementation of VIAT and GMVFool for the paper ["Towards Viewpoint-Invariant Visual Recognition via Adversarial Training"](https://arxiv.org/pdf/2307.10235.pdf) (ICCV2023) 
 
+and ["Improving viewpoint robustness for visual recognition via adversarial training"](https://scholar.google.cz/citations?view_op=view_citation&hl=zh-CN&user=1pggtuUAAAAJ&citation_for_view=1pggtuUAAAAJ:2osOgNQ5qMEC) (Extended Version)
+
 By [Shouwei Ruan](https://heathcliff-saku.github.io/), [Yinpeng Dong](https://ml.cs.tsinghua.edu.cn/~yinpeng/), [Hang Su](https://www.suhangss.me/), Jianteng Peng, Ning Chen, [Xingxing Wei](https://sites.google.com/site/xingxingwei1988/)
 
 ![fig1](asset/framework.png)
@@ -24,5 +26,40 @@ The released data consists of two parts:
 - [IM3D download link (Google Drive)](https://drive.google.com/file/d/1oxrWl4mRa_mEr-ByCMhyRWaQG8Wribo7/view)
 
 
+... The code is currently being organized, thank you for your patience.
 
-... The code is currently being organized
+
+## Citation
+If you find our methods useful or use the IM3D and imagenet-v+ dataset, please consider citing:
+
+```
+@inproceedings{ruan2023towards,
+  title={Towards Viewpoint-Invariant Visual Recognition via Adversarial Training},
+  author={Ruan, Shouwei and Dong, Yinpeng and Su, Hang and Peng, Jianteng and Chen, Ning and Wei, Xingxing},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={4709--4719},
+  year={2023}
+}
+```
+```
+@article{ruan2023improving,
+  title={Improving viewpoint robustness for visual recognition via adversarial training},
+  author={Ruan, Shouwei and Dong, Yinpeng and Su, Hang and Peng, Jianteng and Chen, Ning and Wei, Xingxing},
+  journal={arXiv preprint arXiv:2307.11528},
+  year={2023}
+}
+```
+This project uses Unofficial implementation of Instant-NGP (ngp_pl), Thanks to @kwea123:
+
+```
+@misc{queianchen_nerf,
+  author={Quei-An, Chen},
+  title={Nerf_pl: a pytorch-lightning implementation of NeRF},
+  url={https://github.com/kwea123/nerf_pl/},
+  year={2020},
+}
+```
+
+If you are interested in viewpoint robustness, welcome to check our previous work: [ViewFool: Evaluating the Robustness of Visual Recognition to Adversarial Viewpoints (NIPS2022)](https://proceedings.neurips.cc/paper_files/paper/2022/file/eee7ae5cf0c4356c2aeca400771791aa-Paper-Conference.pdf) [[project]](https://github.com/Heathcliff-saku/ViewFool_).
+
+
