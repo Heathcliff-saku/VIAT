@@ -34,11 +34,16 @@ If you have correctly downloaded the `IM3D` dataset, extract it into a folder wi
 ```
 cd ./run_train_nerf
 sh run_train_NeRF_1.sh
-```
+```  
 Note that you should modified `--root_dir` in `run_train_NeRF_1.sh` to the path of `IM3D` datasets, and the checkpoint will be saved in `.\run_train_NeRF\ckpts\nerf`
 
 
 ## ⚔️ 4.GMVFool
+
+```
+cd ./viat
+sh run_Attack_1.sh
+```  
 
 ## 🛡️ 5.VIAT
 
