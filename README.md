@@ -40,14 +40,28 @@ Note that you should modified `--root_dir` in `run_train_NeRF_1.sh` to the path 
 
 ## ⚔️ 4.GMVFool
 
+Using the following script to run GMVFool:
 ```
 cd ./viat
 sh run_Attack_1.sh
 ```  
+Note that you should modified `--ckpt_attack_path` to the path of nerf checkpoint, and `--treat_model` is the target model to attack. The weights of target model can be found in [downloadlink](https://drive.google.com/file/d/1eLGu32ZtRlqDncmrEh4HZLCu0vCkzMMe/view?usp=sharing), these are the weights we fine-tuned on the 100 classes from ImageNet, corresponding to the categories in IM3D.
+
 
 ## 🛡️ 5.VIAT
 
+For VIAT using GMVFool:
+```
+cd ./viat
+sh run_train_AT_final_res_viatgf_R.sh
+```  
+For VIAT using ViewFool(Instant-NGP version):
+```
+sh run_train_AT_final_res_viatvf_R.sh
+```  
+
 ## 💽 6.ImageNet-V+ Benchmark
+![fig2](asset/benchmark.png)
 
 ## ⚒️ 7. ViewRS
 
