@@ -23,7 +23,7 @@ The released data consists of two parts:
 - [IM3D download link (Google Drive)](https://drive.google.com/file/d/1_A4ePjOhlJahJpy8T2dgWZLoigKmqqSd/view?usp=drive_link)
 
 2. `ImageNet-V+`, A larger adversarial viewpoint benchmark, including 100K adversarial viewpoint samples captured by GMVFool on IM3D.
-- [IM3D download link (Google Drive)](https://drive.google.com/file/d/1oxrWl4mRa_mEr-ByCMhyRWaQG8Wribo7/view)
+- [ImageNet-V+ download link (Google Drive)](https://drive.google.com/file/d/1oxrWl4mRa_mEr-ByCMhyRWaQG8Wribo7/view)
 
 
 ## 🪄 3.Training NeRF for IM3D Objects
